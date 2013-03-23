@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>WeekFlow</title>
     <link rel="stylesheet" href="/stylesheets/bootstrap-combined.min.css" />
     <link rel="stylesheet" href="/stylesheets/font-awesome.css" />
-
+    <link rel='stylesheet' href='/stylesheets/style.css' />
     <!-- TODO: Need to put in the if statement for ie to install font-awesome -->
+
+    <script type="text/javascript" src="javascripts/require.js" data-main="javascripts/main.js"></script>
 
   </head>
   <body>
