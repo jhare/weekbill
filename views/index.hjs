@@ -11,7 +11,18 @@
 
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
+    <div class="container" >
+      <div id="" style="float:left;">
+        <h1>{{ title }}</h1>
+        <p>Welcome to {{ title }}</p>
+      </div>
+
+      <div id="" style="float:right; width:200px;">
+
+        <input type="email" placeholder="your@email.com"/>
+      </div>
+    </div>
+
+
   </body>
 </html>
