@@ -8,21 +8,21 @@
     <!-- TODO: Need to put in the if statement for ie to install font-awesome -->
 
     <script type="text/javascript" src="javascripts/require.js" data-main="javascripts/main.js"></script>
-
   </head>
+
   <body>
-    <div class="container" >
-      <div id="" style="float:left;">
+    <div class="container">
+
+      <div class="header" style="float:left;">
         <h1>{{ title }}</h1>
         <p>Welcome to {{ title }}</p>
       </div>
 
       <div id="" style="float:right; width:200px;">
-
-        <input type="email" placeholder="your@email.com"/>
+        <input id="email" type="email" placeholder="your@email.com"/>
       </div>
-    </div>
 
+    </div>
 
   </body>
 </html>
