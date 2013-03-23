@@ -3,6 +3,11 @@
   <head>
     <title>{{ title }}</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/bootstrap-combined.min.css" />
+    <link rel="stylesheet" href="/stylesheets/font-awesome.css" />
+
+    <!-- TODO: Need to put in the if statement for ie to install font-awesome -->
+
   </head>
   <body>
     <h1>{{ title }}</h1>
