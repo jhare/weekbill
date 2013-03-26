@@ -9,13 +9,21 @@ a {
   float: left;
 }
 .social-bar {
-  float: right;
+  width: 97%;
+  position: fixed;
+  text-align: right;
+  top: 0px;
+  z-index: 0;
 }
 .social-bar div {
   padding: 5px;
+  z-index: 0;
 }
 .social-bar i {
   cursor: pointer;
+}
+.social-link {
+  width: 100px;
 }
 .registration-pane {
   float: right;

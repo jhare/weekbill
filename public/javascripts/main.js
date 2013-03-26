@@ -8,8 +8,5 @@ define(['jquery', 'bootstrap' ], function($, bootstrap) {
     $('.bill-flow-container').append( copy.clone() );
   }
 
-  $('.social-bar').affix({
-    offset: 10
-  });
-
+  $('.social-bar').affix();
 });

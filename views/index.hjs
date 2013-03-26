@@ -37,27 +37,24 @@
   </head>
 
   <body>
-    <div class="social-bar pull-right">
-      <div class="social-links">
-        <div class="twitter-link">
+    <div class="social-bar">
+      <div class="social-links pull-right">
+        <div class="social-link twitter-link">
           <i class="icon-twitter"></i>
         </div>
-        <div class="facebook-link">
+        <div class="social-link facebook-link">
           <i class="icon-facebook"></i>
         </div>
-        <div class="linkedin-link">
+        <div class="social-link linkedin-link">
           <i class="icon-linkedin"></i>
         </div>
-        <div class="googleplus-link">
+        <div class="social-link googleplus-link">
           <i class="icon-google-plus"></i>
         </div>
-        <div class="pinterest-link">
+        <div class="social-link pinterest-link">
           <i class="icon-pinterest"></i>
         </div>
-      </div>
-
-      <div class="other-links">
-        <div class="github-link">
+        <div class="social-link github-link">
           <i class="icon-github"></i>
         </div>
       </div>
@@ -69,61 +66,61 @@
         <h1>{{ title }}</h1>
       </div>
 
-      
-      <div class="registration-pane">
-        <input id="email" type="email" placeholder="your@email.com"/>
-      </div>
 
-      <div class="recurring-list">
-        <table>
-          <th colspan="3">enter income or bills</th>
-          <tr>
-            <td colspan="2">
-              <input class="amount" type="text" placeholder="amount ($)"/>
-            </td>
-            <td>
-              <input class="description" type="text" placeholder="description"/>
-            </td>
-          </tr>
-          <tr>
-            <td><i class="icon-double-angle-right"></i></td>
-            <td>$50</td>
-            <td>gas</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="bill-flow-container">
-        <div class="day-row">
-          <div class="day">
-            <div class="day-title">Sunday</div>
-            <div class="day-content">blah blah</div>
-          </div>
-          <div class="day">
-            <div class="day-title">Monday</div>
-            <div class="day-content">blah blah</div>
-          </div>
-          <div class="day">
-            <div class="day-title">Tuesday</div>
-            <div class="day-content">blah blah</div>
-          </div>
-          <div class="day">
-            <div class="day-title">Wednesday</div>
-            <div class="day-content">blah blah</div>
-          </div>
-          <div class="day">
-            <div class="day-title">Thursday</div>
-            <div class="day-content">blah blah</div>
-          </div>
-          <div class="day">
-            <div class="day-title">Friday</div>
-            <div class="day-content">blah blah</div>
-          </div>
-          <div class="day">
-            <div class="day-title">Saturday</div>
-            <div class="day-content">blah blah</div>
-          </div>
+        <div class="registration-pane">
+          <input id="email" type="email" placeholder="your@email.com"/>
         </div>
+
+        <div class="recurring-list">
+          <table>
+            <th colspan="3">enter income or bills</th>
+            <tr>
+              <td colspan="2">
+                <input class="amount" type="text" placeholder="amount ($)"/>
+              </td>
+              <td>
+                <input class="description" type="text" placeholder="description"/>
+              </td>
+            </tr>
+            <tr>
+              <td><i class="icon-double-angle-right"></i></td>
+              <td>$50</td>
+              <td>gas</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="bill-flow-container">
+          <div class="day-row">
+            <div class="day">
+              <div class="day-title">Sunday</div>
+              <div class="day-content">blah blah</div>
+            </div>
+            <div class="day">
+              <div class="day-title">Monday</div>
+              <div class="day-content">blah blah</div>
+            </div>
+            <div class="day">
+              <div class="day-title">Tuesday</div>
+              <div class="day-content">blah blah</div>
+            </div>
+            <div class="day">
+              <div class="day-title">Wednesday</div>
+              <div class="day-content">blah blah</div>
+            </div>
+            <div class="day">
+              <div class="day-title">Thursday</div>
+              <div class="day-content">blah blah</div>
+            </div>
+            <div class="day">
+              <div class="day-title">Friday</div>
+              <div class="day-content">blah blah</div>
+            </div>
+            <div class="day">
+              <div class="day-title">Saturday</div>
+              <div class="day-content">blah blah</div>
+            </div>
+          </div>
       </div>
 
     </div>
