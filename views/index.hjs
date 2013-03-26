@@ -2,12 +2,37 @@
 <html>
   <head>
     <title>WeekFlow</title>
-    <link rel="stylesheet" href="/stylesheets/bootstrap-combined.min.css" />
-    <link rel="stylesheet" href="/stylesheets/font-awesome.css" />
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <!-- TODO: Need to put in the if statement for ie to install font-awesome -->
 
-    <script type="text/javascript" src="javascripts/require.js" data-main="javascripts/main.js"></script>
+    <link rel="stylesheet"
+      href="/stylesheets/bootstrap-combined.min.css"/>
+
+    <link rel="stylesheet"
+        href="/stylesheets/font-awesome.css"/>
+
+    <link rel="stylesheet"
+      href="/stylesheets/datatables/jquery.dataTables.css"/>
+
+    <link rel='stylesheet'
+      href='/stylesheets/style.css'/>
+
+    <script type="text/javascript" src="javascripts/require.js"
+      data-main="javascripts/main.js">
+    </script>
+
+    <script type="text/javascript">
+      require.config({
+        paths: {
+          jquery: 'lib/jquery-1.9.1',
+          bootstrap: 'lib/bootstrap.min',
+          underscore: 'lib/underscore',
+          moment: 'lib/moment',
+          qunit: 'lib/qunit-1.11.0',
+          backbone: 'lib/backbone',
+          flot: 'lib/flot/jquery.flot',
+          dataTables: 'lib/datatables/jquery.dataTables'
+        }
+      });
+    </script>
   </head>
 
   <body>
@@ -20,6 +45,10 @@
 
       <div id="" style="float:right; width:200px;">
         <input id="email" type="email" placeholder="your@email.com"/>
+      </div>
+
+      <div class="bill-flow-container">
+
       </div>
 
     </div>
