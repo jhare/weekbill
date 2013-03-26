@@ -1,4 +1,4 @@
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Billflow' });
+  res.render('index', { title: 'billflow' });
 };
