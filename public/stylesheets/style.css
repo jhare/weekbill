@@ -5,3 +5,22 @@ body {
 a {
   color: #00B7FF;
 }
+.registration-pane {
+  float: right;
+  width: 200px;
+}
+.data-entry {
+  float: right;
+  position: relative;
+  top: 5em;
+  left: 15.5em;
+  text-align: right;
+}
+.amount {
+  width: 75px;
+}
+.bill-flow-container {
+  position: relative;
+  top: 100px;
+  left: -100px;
+}

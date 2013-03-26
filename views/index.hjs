@@ -40,15 +40,34 @@
 
       <div class="header" style="float:left;">
         <h1>{{ title }}</h1>
-        <p>Welcome to {{ title }}</p>
       </div>
 
-      <div id="" style="float:right; width:200px;">
+      <div class="registration-pane">
         <input id="email" type="email" placeholder="your@email.com"/>
       </div>
 
-      <div class="bill-flow-container">
+      <div class="data-entry">
+        <h5>enter a bill or income</h5>
 
+        <div class="data-entry-ctrls">
+          <span>
+            <input class="amount" type="text" placeholder="amount ($)"/>
+          </span>
+          <span>
+            <input class="description" type="text" placeholder="description"/>
+          </span>
+        </div>
+
+        <div id="" class="recurring-list">
+          
+        </div>
+      </div>
+
+      <div class="bill-flow-container">
+        <span class="day">
+          <div class="day-title">Monday</div>
+          <div class="da-content">blah blah</div>
+        </span>
       </div>
 
     </div>
